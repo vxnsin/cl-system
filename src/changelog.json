@@ -1,0 +1,32 @@
+[
+  {
+    "kategorie": "system",
+    "emoji": "🟢",
+    "update": "System Bot ist online"
+  },
+  {
+    "kategorie": "system",
+    "emoji": "🟢",
+    "update": "Changelog System"
+  },
+  {
+    "kategorie": "system",
+    "emoji": "🟢",
+    "update": "Fun Commands (hug,kiss,kill)"
+  },
+  {
+    "kategorie": "system",
+    "emoji": "🟢",
+    "update": "Spieler Suche"
+  },
+  {
+    "kategorie": "system",
+    "emoji": "🟢",
+    "update": "Vorschlag System"
+  },
+  {
+    "kategorie": "system",
+    "emoji": "🟢",
+    "update": "Level System"
+  }
+]
