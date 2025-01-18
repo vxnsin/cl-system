@@ -1,16 +1,16 @@
 {
-    "clientid": "847031261167091732",
-    "serverid": "987277750400352317", 
-    "everyone": "987277750400352317", 
-    "vorschlagchannel": "1041116886567485481",
-    "welcomeChannelCF": "867745021007364126",
+    "clientid": "",
+    "serverid": "", 
+    "everyone": "", 
+    "vorschlagchannel": "",
+    "welcomeChannelCF": "",
     "brole": "",
     "bewertungschannel": "",
-    "chatchanneltopic": "867745021007364126",
-    "onlinecounterc": "953271046511947828",
-    "serveruserc": "950010751618256897",
-    "welcomerole": "1064237722606248156",
-    "changelogchannel": "1063753676801450094",
-    "spielersuche": "1112316327697317929",
-    "deathchat": "1116356759775367238"
+    "chatchanneltopic": "",
+    "onlinecounterc": "",
+    "serveruserc": "",
+    "welcomerole": "",
+    "changelogchannel": "",
+    "spielersuche": "",
+    "deathchat": ""
 }
