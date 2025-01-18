@@ -55,6 +55,8 @@ client.on(Events.InteractionCreate, async (interaction) => {
 
   await channel.send({ embeds: [embed] });
 });
+
+//Player Search Channel System
 const bekannteSpiele = {
   fortnite: "🔫 • Fortnite",
   dn: "🔫 • Fortnite",
@@ -144,9 +146,9 @@ client.on("messageCreate", async (message) => {
   }
 });
 client.on('messageCreate', async (message) => {
-    // Überprüfe, ob die Nachricht im gewünschten Kanal gesendet wurde
-    if (message.channel.id === '993084377191960576') {
-        // Warte 60 Sekunden und lösche dann die Nachricht
+    // AutoDelete
+    if (message.channel.id === 'CHANNEL_ID') {
+	//60Sec
         setTimeout(() => {
             message.delete();
         }, 60000);
@@ -174,14 +176,14 @@ client.on('error', (error) => {
   .setTitle("`❗` | Fehler")
   .setColor("Red")
   .setDescription(errorMessage)
-  sendToChannel({content: `<@531896089096486922> | Ein Fehler ist aufgetreten`, embeds: [errorembed]});
+  sendToChannel({content: `<@DEVELOPER_ID> | Ein Fehler ist aufgetreten`, embeds: [errorembed]});
 });
 
 function sendToChannel(message) {
-  const guild = client.guilds.cache.get("987277750400352317");
+  const guild = client.guilds.cache.get("GUILD_ID");
   if (!guild) return;
 
-  const channel = guild.channels.cache.get("1109031510369116211");
+  const channel = guild.channels.cache.get("CHANNEL_ID");
   if (!channel) return;
   
   channel.send(message);
