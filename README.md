@@ -6,7 +6,7 @@
 
 ## Requirements
 
-- Node.js (version )
+- Node.js
 - MongoDB
 
 ## License
